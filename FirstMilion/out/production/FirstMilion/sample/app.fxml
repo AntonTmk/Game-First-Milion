@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="grid1" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="399.0" prefWidth="684.0">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#004b90" height="72.0" stroke="#00b2ff" strokeType="INSIDE" width="684.0" />
+                <Text fill="WHITE" layoutX="14.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Перший Мільйон " wrappingWidth="291.71484375">
+                    <font>
+                        <Font name="Bell MT" size="36.0" />
+                    </font>
+                </Text>
+                <ProgressBar layoutY="376.0" prefHeight="18.0" prefWidth="684.0" progress="0.0" />
+                <Text fill="WHITE" layoutX="565.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Баланс">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Label fx:id="result" layoutX="621.0" layoutY="28.0" prefHeight="17.0" prefWidth="58.0" text="0" textFill="WHITE">
+                    <font>
+                        <Font name="Calisto MT" size="14.0" />
+                    </font>
+                </Label>
+                <Button fx:id="exit" layoutX="291.0" layoutY="232.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="92.0" text="Вихід" />
+                <Button fx:id="start" layoutX="291.0" layoutY="180.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="92.0" text="START" />
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>
